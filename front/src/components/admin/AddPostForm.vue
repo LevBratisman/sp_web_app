@@ -98,7 +98,7 @@
 
             formData.append('image', imageFile.value, uuidImage);
 
-            xhr.open('POST', 'https://simplephysics.ru/api/posts/upload/image')
+            xhr.open('POST', 'https://simple-physics.ru/api/posts/upload/image')
             xhr.send(formData);
 
             postAddForm.value.imageId = uuidImage;
